@@ -1,0 +1,33 @@
+1)How to compile a java file?
+Ans.	i)Open CMD and go to the directory where you saved the java file.
+	ii)Then type "javac filename.java" and press Enter to compile the code.
+
+2)How to run a class file?
+Ans.	A class file can be run in CMD by typing "java filename".
+
+3)How to debug a java file?
+Ans.	Right click on the Java class file and select  Debug.
+
+4)How to set classpath?
+Ans.	i)Go to Advanced system settings in the control panel.
+	ii)Then goto Advanced tab and click on Environment Variables.
+	iii)Then by clicking on New(which is available in System variables), a New System Variable dialog will open in which you have enter variable name and variable value.
+	iv)Then by clicking on OK, a Edit environment variable dialog will open and you will be able to set the path.
+
+5)How to view current classpath?
+Ans.	i)Go to Advanced system settings in the control panel.
+	ii)Then goto Advanced tab and click on Environment Variables.
+	iii)In System variable, there is available current path.
+
+6)How to set destination of the class file?
+Ans.	While compiling the java file, we can set the destination of the class file by typing "javac filename.java -d "destination to store class file"".
+
+7)How to run a compiled class file?
+Ans.	 A class file can be run in CMD by typing "java filename".
+
+8)How to check version of java running on your system?
+Ans.	By typing "java -version" in CMD.
+
+9)How to set classpath when class files are in .jar file?
+Ans.	By setting classpath as a command line.
+	->set CLASSPATH=classpath1,classpath2,....
