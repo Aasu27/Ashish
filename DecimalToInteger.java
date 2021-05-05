@@ -1,14 +1,11 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
+import java.util.*;
 public class DecimalToInteger {
-	public static void main(String[] args) throws IOException{
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the Decimal number:");
-		String str = bf.readLine();
-		int value = Integer.parseInt(str);
-		int i = Integer.valueOf(value).intValue();
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number:");
+		String str = sc.nextLine();
+		int val = Integer.parseInt(str);
+		int i = Integer.valueOf(val).intValue();
 		System.out.println("Integer number is:" + i);
 	}
 }
